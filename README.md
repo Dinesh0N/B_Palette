@@ -21,7 +21,7 @@
  **Importing Palettes:**
 - Go to File > Import > B Palette.
 - Select a file in a supported format (GPL, ASE, ACO, PAL, CLR, CSV, CSS, and TXT).
--The palette will be imported and added to Blender's palette list.
+- The palette will be imported and added to Blender's palette list.
 
  **Exporting Palettes:**
 - Go to File > Export > B Palette.
