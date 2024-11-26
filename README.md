@@ -12,6 +12,8 @@
 
     **Location:** File > Import/Export > B Palette
 
+![B palette_Page 1](https://github.com/user-attachments/assets/78db5df2-3d20-462c-928f-058c56fce4c9)
+
 ---
 
 ## How to Use
