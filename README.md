@@ -29,3 +29,95 @@
 - Save the palette as a GPL file for external use.
 
 ---
+## **CSV File Structure**
+A **CSV (Comma-Separated Values)** file can support various formats to describe colors. Supported structures include:
+
+1. **Hexadecimal Notation (with or without `#`):**
+   ```
+   #FF5733, #C70039, #900C3F
+   FFC300, DAF7A6, 581845
+   ```
+
+2. **RGB Values (0–255):**
+   ```
+   255, 87, 51
+   199, 0, 57
+   144, 12, 63
+   ```
+
+3. **Mixed (HEX and RGB):**
+   ```
+   #FF5733
+   199, 0, 57
+   #DAF7A6
+   ```
+
+- **Parsing Notes:**  
+  Each row or clum can represent a single color, or multiple comma-separated color codes. Any non-color text is ignored.  
+
+---
+
+## **CSS File Structure**
+A **CSS (Cascading Style Sheets)** file can contain color codes in styles or inline formats. Supported formats include:
+
+1. **Hexadecimal Colors:**
+   ```css
+   background-color: #FF5733;
+   color: #C70039;
+   ```
+
+2. **RGB Colors:**
+   ```css
+   border-color: rgb(255, 87, 51);
+   ```
+
+3. **HSL Colors (Converted to RGB):**
+   ```css
+   background: hsl(340, 100%, 50%);
+   ```
+
+4. **HEX Prefixed with `FF` (Stripping the `FF`):**
+   ```css
+   border: 1px solid FF5733;
+   ```
+
+- **Parsing Notes:**  
+  Any valid color in a CSS file, regardless of the surrounding properties, is detected. Commented lines (e.g., `/* this is a comment */`) and other non-color data are ignored.
+
+---
+
+## **TXT File Structure**
+A **TXT** file supports flexible formats to store color codes. Supported structures include:
+
+1. **Hexadecimal Colors:**
+   ```
+   #FF5733
+   C70039
+   ```
+
+2. **RGB Values:**
+   ```
+   255, 87, 51
+   199 0 57
+   ```
+
+3. **HSL Values (Converted to RGB):**
+   ```
+   hsl(340, 100%, 50%)
+   ```
+
+4. **Prefixed HEX Colors (`FF` prefix):**
+   ```
+   FF5733
+   ```
+
+5. **Mixed Formats:**
+   ```
+   #FF5733
+   255, 87, 51
+   hsl(340, 100%, 50%)
+   ```
+
+- **Parsing Notes:**  
+  Each line in the TXT file is scanned for a valid color. Unsupported lines or text are skipped.  
+---
