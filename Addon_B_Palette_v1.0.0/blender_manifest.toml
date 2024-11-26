@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+id = "b_palettes"
+name = "B Palettes"
+version = "1.0.0"
+tagline = "Import/Export Palettes"
+maintainer = "Dinesh"
+type = "add-on"
+tags = ["Import-Export"]
+blender_version_min = "4.3.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://projects.blender.org/extensions/"
+copyright = [
+    "2024 Dinesh",
+]
+[permissions]
+files = "Requires access to directory with color palette files"
