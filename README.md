@@ -1,11 +1,7 @@
 # B Palette
 
----
-[![Software License](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)](LICENSE.md)
-<p>
-    <a href="#table"><img alt="Blender"
-            src="https://img.shields.io/badge/Blender-gray?logo=blender&style=flat-square" /></a>
-</p>
+![Software License](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)
+![Blender](https://img.shields.io/badge/Blender-gray?logo=blender&style=flat-square)
 
 ## B Palette Addon
  B Palette is a versatile tool for Blender users who work with color palettes. It allows seamless import and export of palettes in multiple formats. The addon supports importing GPL, ASE, ACO, PAL, CLR, CSV, CSS, and TXT files, enabling you to bring in color schemes from external tools like Adobe Photoshop, GIMP, and Procreate. You can also export palettes in the GPL format for use in other applications. 
